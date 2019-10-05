@@ -21,7 +21,7 @@ const fastifyService = {
             index_route_1.default.forEach(route => {
                 server.route(route);
             });
-            yield server.listen(3000);
+            yield server.listen(3000, "0.0.0.0");
             console.log(`Fastify service initialized on port ${server.server.address().port}.`);
         }
         catch (error) {
