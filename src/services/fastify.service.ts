@@ -17,7 +17,7 @@ const fastifyService: Service = {
         server.route(route);
       });
 
-      await server.listen(3000);
+      await server.listen(3000, "0.0.0.0");
 
       console.log(
         `Fastify service initialized on port ${
