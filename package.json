@@ -1,0 +1,13 @@
+{
+  "name": "the-day-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "^12.7.11",
+    "fastify": "^2.9.0",
+    "http": "^0.0.0",
+    "net": "^1.0.2",
+    "types": "^0.1.1"
+  }
+}
